@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Background image for entire website */
+body {
+  background-image: url('/image.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+/* Enhanced overlay utilities with filters */
+.bg-overlay-light {
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(12px) saturate(180%) brightness(110%);
+  -webkit-backdrop-filter: blur(12px) saturate(180%) brightness(110%);
+}
+
+.bg-overlay-dark {
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(8px) saturate(120%) contrast(120%);
+  -webkit-backdrop-filter: blur(8px) saturate(120%) contrast(120%);
+}
+
+.bg-overlay-dark-filter {
+  background-color: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(15px) saturate(140%) contrast(130%) brightness(70%);
+  -webkit-backdrop-filter: blur(15px) saturate(140%) contrast(130%) brightness(70%);
+}
+
+.bg-overlay-blue {
+  background-color: rgba(59, 130, 246, 0.9);
+  backdrop-filter: blur(10px) saturate(150%) brightness(105%);
+  -webkit-backdrop-filter: blur(10px) saturate(150%) brightness(105%);
+}
+
+.bg-overlay-white-soft {
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(15px) saturate(180%) brightness(108%);
+  -webkit-backdrop-filter: blur(15px) saturate(180%) brightness(108%);
+}
+
+.bg-overlay-gray-soft {
+  background-color: rgba(249, 250, 251, 0.9);
+  backdrop-filter: blur(12px) saturate(160%) brightness(105%) contrast(110%);
+  -webkit-backdrop-filter: blur(12px) saturate(160%) brightness(105%) contrast(110%);
+}
+
+/* Additional filter effects for enhanced visual appeal */
+.bg-overlay-light::before,
+.bg-overlay-white-soft::before,
+.bg-overlay-gray-soft::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 50%, rgba(255, 255, 255, 0.1) 100%);
+  pointer-events: none;
+  z-index: -1;
+}
+
+.bg-overlay-blue::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(99, 102, 241, 0.05) 50%, rgba(59, 130, 246, 0.1) 100%);
+  pointer-events: none;
+  z-index: -1;
+}
+
+.bg-overlay-dark::before,
+.bg-overlay-dark-filter::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.08) 50%, rgba(0, 0, 0, 0.15) 100%);
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Ensure overlays have relative positioning for pseudo-elements */
+.bg-overlay-light,
+.bg-overlay-dark,
+.bg-overlay-dark-filter,
+.bg-overlay-blue,
+.bg-overlay-white-soft,
+.bg-overlay-gray-soft {
+  position: relative;
+}
