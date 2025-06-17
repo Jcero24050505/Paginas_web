@@ -1,0 +1,27 @@
+@import '../../styles/variables.css';
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--color-light);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+}
+
+.logoImage {
+  width: auto; /* Ajusta el ancho según necesites */
+  height: 20px; /* Ajusta la altura para que coincida con la altura del texto aproximadamente */
+  margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.logo span:first-child {
+  color: var(--color-light);
+}
+
+.studentName {
+  color: var(--color-secondary);
+  font-style: italic;
+  margin-left: 10px;
+}

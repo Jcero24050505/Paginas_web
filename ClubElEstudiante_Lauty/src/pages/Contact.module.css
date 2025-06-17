@@ -1,0 +1,154 @@
+
+.contactoPage {
+  padding-top: 0;
+}
+
+.contactInfoSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 4rem 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contactInfoLeft {
+  flex: 1;
+  padding-right: 2rem;
+}
+
+.contactInfoLeft h2 {
+  font-size: 2.5rem;
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+}
+
+.contactInfoLeft h3 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-secondary);
+}
+
+.contactInfoLeft p {
+  line-height: 1.6;
+  margin-bottom: 0.8rem;
+  color: #555;
+}
+
+.contactInfoLeft ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contactInfoLeft li {
+  line-height: 1.8;
+  color: #555;
+}
+
+.contactInfoLeft a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.contactInfoRight {
+  flex: 1;
+}
+
+.contactImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contactFormSection {
+  background-color: black;
+  color: white;
+  padding: 4rem 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contactFormLeft {
+  flex: 1;
+  padding-right: 2rem;
+}
+
+.contactFormLeft h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--color-secondary);
+}
+
+.contactFormLeft p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: #eee;
+}
+
+.contactFormRight {
+  flex: 1;
+}
+
+.formInputs {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.smallInput,
+.largeInput {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #333;
+  border-radius: 4px;
+  background-color: #222;
+  color: white;
+  font-size: 1rem;
+}
+
+.largeInput {
+  min-height: 100px;
+}
+
+.submitButton {
+  background-color: var(--color-secondary);
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: var(--color-primary);
+}
+
+/* Media queries para hacerlo responsive */
+@media (max-width: 992px) {
+  .contactInfoSection,
+  .contactFormSection {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .contactInfoLeft,
+  .contactFormLeft,
+  .contactInfoRight,
+  .contactFormRight {
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .formInputs {
+    flex-direction: column;
+  }
+}

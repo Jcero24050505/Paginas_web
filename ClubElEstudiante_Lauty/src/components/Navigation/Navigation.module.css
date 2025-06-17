@@ -1,0 +1,69 @@
+@import '../../styles/variables.css';
+
+.navMenu {
+  display: flex;
+  list-style: none;
+}
+
+.navMenu li {
+  margin-left: var(--space-3);
+  position: relative;
+}
+
+.navItem a {
+  font-weight: 600;
+  color: var(--color-light);
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  padding: var(--space-1) 0;
+  transition: all 0.3s;
+  display: block;
+}
+
+.navItem a:hover {
+  color: var(--color-secondary);
+}
+
+.navItem a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: var(--color-secondary);
+  left: 0;
+  bottom: 0;
+  transition: width 0.3s;
+}
+
+.navItem a:hover::after {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .navMenu {
+    position: fixed;
+    top: 70px;
+    left: -100%;
+    flex-direction: column;
+    background-color: var(--color-light);
+    width: 100%;
+    height: calc(100vh - 70px);
+    padding: var(--space-4);
+    transition: 0.3s;
+    box-shadow: var(--shadow);
+    z-index: 1000;
+  }
+  
+  .navMenu.active {
+    left: 0;
+  }
+  
+  .navMenu li {
+    margin: var(--space-3) 0;
+  }
+  
+  .navItem a {
+    color: var(--color-text);
+  }
+}

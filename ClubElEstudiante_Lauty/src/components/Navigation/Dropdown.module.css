@@ -1,0 +1,86 @@
+@import '../../styles/variables.css';
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown > a {
+  font-weight: 600;
+  color: var(--color-light);
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  padding: var(--space-1) 0;
+  transition: all 0.6s;
+  display: block;
+}
+
+.dropdown > a:hover {
+  color: var(--color-secondary);
+}
+
+.dropdown > a::after {
+  content: ' ▼';
+  font-size: 0.7rem;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: var(--color-light);
+  min-width: 200px;
+  box-shadow: var(--shadow);
+  z-index: 10;
+  border-radius: var(--border-radius);
+  top: 100%;
+  left: 0;
+  margin-top: var(--space-1);
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.dropdownContent.show {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.dropdownContent a {
+  color: var(--color-text);
+  padding: 0.8rem 1rem;
+  display: block;
+  text-transform: none;
+  font-weight: 500;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.dropdownContent a:hover {
+  background-color: rgba(255, 0, 0, 0.05);
+  color: var(--color-secondary);
+}
+
+@media (max-width: 768px) {
+  .dropdown > a {
+    color: var(--color-text);
+  }
+  
+  .dropdownContent {
+    position: static;
+    display: none;
+    box-shadow: none;
+    background-color: transparent;
+    padding-left: var(--space-2);
+    margin-top: var(--space-1);
+  }
+  
+  .dropdown.active .dropdownContent {
+    display: block;
+  }
+  
+  .dropdown > a::after {
+    float: right;
+  }
+}

@@ -1,0 +1,109 @@
+.disciplinesPage {
+  padding-top: 0px;
+}
+
+.pageHeader {
+  background-color: var(--color-primary);
+  color: white;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.pageHeader h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+.disciplineSection {
+  padding: 6rem 0;
+}
+
+.disciplineSection:nth-child(odd) {
+  background-color: #f8f8f8;
+}
+
+.disciplineContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.disciplineInfo h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: var(--color-primary);
+}
+.disciplineInfo h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  
+}
+
+.disciplineInfo p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  color: #666;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  padding: 0.5rem 0;
+  padding-left: 2rem;
+  position: relative;
+}
+
+.features li::before {
+  content: "•";
+  color: var(--color-secondary);
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+.disciplineImage {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.disciplineImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 992px) {
+  .disciplineContent {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .disciplineSection:nth-child(even) .disciplineContent {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 768px) {
+  .pageHeader h1 {
+    font-size: 2.5rem;
+  }
+  
+  .disciplineInfo h2 {
+    font-size: 2rem;
+  }
+  
+  .disciplineImage {
+    height: 300px;
+  }
+}

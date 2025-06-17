@@ -1,0 +1,361 @@
+.disciplinesPage {
+  padding-top: 0px;
+}
+
+/* Estilos para la sección de bienvenida */
+.welcomeSection {
+  background-color: white;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.welcomeContainer {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.welcomeContainer h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+}
+
+.welcomeContainer p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.videoModule {
+  margin-top: 2rem;
+}
+
+/* Estilos generales para módulos de color */
+.blackModule {
+  background-color: black;
+  color: white;
+  padding: 4rem 0;
+}
+
+.whiteModule {
+  background-color: white;
+  color: #333;
+  padding: 4rem 0;
+}
+
+.sectionTitle {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.sectionTitle h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--color-primary);
+}
+
+.centeredText {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #ddd; /* Para texto en módulo negro */
+}
+
+.whiteModule .centeredText {
+  color: #666; /* Para texto en módulo blanco */
+}
+
+.centeredImage {
+   display: flex;
+  justify-content: center; /* Centra horizontalmente el contenido flex */
+  align-items: center;    /* Centra verticalmente el contenido flex (opcional, dependiendo de si tiene altura) */
+  margin-bottom: 2rem;
+}
+
+.centeredImage img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  
+}
+
+/* Estilos para la sección de instalaciones */
+.facilitiesGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Definimos explícitamente 4 columnas */
+  gap: 2rem;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.facilityItem {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.facilityItem img {
+  width: 100%;
+  max-height: 150px; /* Reducimos un poco la altura para mejor espaciado */
+  object-fit: cover;
+  border-radius: 2px;
+  margin-bottom: 0.5rem; /* Reducimos el margen inferior */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.facilityItem p {
+  margin-bottom: 0.2rem;
+  font-weight: bold;
+}
+
+.facilityTextContainer {
+  text-align: center;
+}
+
+.facilityDescription {
+  font-weight: normal;
+  color: #ddd; /* Para texto en módulo negro */
+  margin-top: 0.2rem;
+}
+
+.blackModule .facilityDescription {
+  color: #eee;
+}
+
+/* Estilos para la sección de 8 imágenes */
+.imageGridSection {
+  padding: 2rem 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.imageGridRow {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.imageGridRow:last-child {
+  margin-bottom: 0;
+}
+
+.imageGridRow img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Estilos para la sección de zona infantil */
+.centeredTextSection {
+  text-align: center;
+  padding: 2rem 20px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.centeredTextSection h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--color-secondary);
+}
+
+.centeredTextSection p {
+  line-height: 1.6;
+  color: #ddd; /* Para texto en módulo negro */
+  margin-bottom: 0.8rem;
+}
+
+.blackModule .centeredTextSection p {
+  color: #eee;
+}
+
+/* Estilos para la sección de apertura y festivos */
+.openingHoursGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.openingHoursItem h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.
+  }
+
+.openingHoursItem p {
+  margin-bottom: 0.3rem;
+}
+
+/* Estilos para la sección de reserva */
+.reservationSection {
+  text-align: center;
+  padding: 3rem 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.reservationSection p {
+  font-size: 1.2rem;
+  color: #eee;
+  margin-bottom: 1rem;
+}
+
+.reservationSection h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1.5rem;
+}
+
+.reservationButton {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reservationButton:hover {
+  background-color: #eee;
+}
+
+/* Estilos para la sección de precios */
+.pricesContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.pricesContainer h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+}
+
+.pricesContainer h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+  font-weight: bold;
+}
+
+.updatedDate {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 1.5rem;
+}
+
+.priceTable {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.priceColumn {
+  text-align: left;
+}
+
+.priceColumn h4 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.priceColumn h5 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.priceColumn p {
+  margin-bottom: 0.2rem;
+}
+
+.priceColumn p span {
+  float: right;
+  font-weight: bold;
+  color: var(--color-secondary);
+}
+
+/* Estilos para la sección de restaurantes */
+.restaurantsContainer {
+  display: flex;
+  justify-content: space-around;
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+
+.restaurantItem {
+  text-align: center;
+  margin-bottom: 2rem;
+  flex-basis: calc(50% - 20px); /* Para dos columnas en pantallas medianas y grandes */
+}
+
+.restaurantItem img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.restaurantItem h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--color-primary);
+}
+
+.restaurantItem p {
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 0.8rem;
+}
+
+/* Media queries para diseño responsive (si es necesario ajustar más) */
+@media (max-width: 768px) {
+  .restaurantsContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .restaurantItem {
+    flex-basis: 100%;
+  }
+
+  .priceTable {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .priceColumn {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .priceColumn p span {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+}
