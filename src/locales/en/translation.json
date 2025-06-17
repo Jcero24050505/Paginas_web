@@ -1,0 +1,431 @@
+{
+  "nav": {
+    "home": "Home",
+    "booking": "Book Online",
+    "fitness": "Fitness",
+    "shop": "Shop",
+    "events": "Events",
+    "pricing": "Prices",
+    "hours": "Opening Hours",
+    "contact": "Contact",
+    "about": "About Us",
+    "openMenu": "Open Menu",
+    "closeMenu": "Close Menu"
+  },
+  "home": {
+    "welcome": {
+      "title": "Welcome to Airport Squash",
+      "description": "Discover first-class squash in a modern and inviting environment"
+    },
+    "features": {
+      "book": {
+        "title": "Online Booking",
+        "description": "Book your court conveniently online"
+      },
+      "prices": {
+        "title": "Fair Prices",
+        "description": "Transparent prices for all memberships"
+      },
+      "hours": {
+        "title": "Opening Hours",
+        "description": "Flexible times for your training"
+      },
+      "location": {
+        "title": "Location",
+        "description": "Centrally located and easily accessible"
+      }
+    },
+    "promotion": {
+      "title": "Your Squash Experience",
+      "description": "Benefit from our first-class facilities",
+      "point1": "Professional Courts",
+      "point2": "Experienced Coaches",
+      "point3": "Modern Equipment",
+      "cta": "Book Now",
+      "imageAlt": "Squash Court"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Learn more about Airport Squash",
+    "history": {
+      "title": "Our History",
+      "paragraph1": "Since 2015, we have been your trusted partner for squash and fitness.",
+      "paragraph2": "With state-of-the-art equipment and experienced coaches, we offer the best squash experience.",
+      "paragraph3": "Our community is constantly growing, and we are proud to connect people through sport.",
+      "imageAlt": "Airport Squash History",
+      "since": "Founded"
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "What drives us",
+      "quality": {
+        "title": "Quality",
+        "description": "Highest standards in all areas"
+      },
+      "community": {
+        "title": "Community",
+        "description": "A place for meeting and sport"
+      },
+      "excellence": {
+        "title": "Excellence",
+        "description": "Striving for continuous improvement"
+      },
+      "safety": {
+        "title": "Safety",
+        "description": "Your health is our top priority"
+      }
+    },
+    "facilities": {
+      "title": "Our Facilities",
+      "subtitle": "Modern and professionally equipped",
+      "item2": "Modern Fitness Area",
+      "item3": "Changing Rooms & Showers",
+      "item4": "Relaxation Area"
+    },
+    "join": {
+      "title": "Join Our Community",
+      "description": "Experience squash at the highest level",
+      "bookNow": "Book Now",
+      "contactUs": "Contact Us"
+    }
+  },
+  "booking": {
+    "title": "Online Booking",
+    "description": "Book your court easily and quickly",
+    "bookingSystem": "Booking System",
+    "bookingInstructions": "Follow these simple steps to book your court",
+    "howToBook": {
+      "title": "How it works",
+      "step1": "Select Date and Time",
+      "step2": "Choose an Available Court",
+      "step3": "Enter Your Details",
+      "step4": "Confirm Your Booking"
+    },
+    "openBookingSystem": "Go to Booking System",
+    "openInNewTab": "Opens in a new tab",
+    "rules": {
+      "title": "Booking Policies",
+      "courtRules": {
+        "title": "Court Rules",
+        "rule1": "Clean indoor shoes required",
+        "rule2": "Maximum playing time: 45 minutes",
+        "rule3": "Minimum 2 players per court",
+        "rule4": "Arrive on time"
+      },
+      "cancellation": {
+        "title": "Cancellation",
+        "rule1": "Free cancellation up to 24h beforehand",
+        "rule2": "Later cancellation: 50% fee",
+        "rule3": "No-show: Full fee"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Prices & Memberships",
+    "description": "Transparent prices for every need",
+    "memberships": {
+      "title": "Our Memberships",
+      "subtitle": "Choose the right option",
+      "standard": {
+        "title": "No Member",
+        "period": "per person",
+        "feature1": "Access to all courts"
+      },
+      "premium": {
+        "title": "Monthly",
+        "period": "Month",
+        "feature1": "Unlimited Access",
+        "feature2": "Equipment included"
+      },
+      "student": {
+        "title": "Urban Sports Club Membership",
+        "period": "Month",
+        "feature1": "Membership S: 4 visits per month, for fitness training only, no squash sessions",
+        "feature2": "Membership M: 8 visits per month, up to 4 squash sessions of 45 minutes",
+        "feature3": "Memberships L and XL: 8 visits per month, up to 8 squash sessions of 45 minutes"
+      }
+    },
+    "equipment": {
+      "title": "Equipment & Extras",
+      "item": "Item",
+      "price": "Price",
+      "racket": "Racket Rental",
+      "balls": "Balls",
+      "shoes": "Shoe Rental",
+      "towel": "Towel",
+      "shower": "Shower"
+    }
+  },
+  "hours": {
+    "title": "Opening Hours",
+    "description": "When you can visit us",
+    "regularHours": "Regular Opening Hours",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "holidayHours": {
+      "title": "Holidays",
+      "description": "We are closed on the following holidays",
+      "date": "Date",
+      "holiday": "Holiday",
+      "hours": "Opening Hours",
+      "closed": "Closed"
+    },
+    "holidays": {
+      "newYear": "New Year's Day",
+      "goodFriday": "Good Friday",
+      "easterMonday": "Easter Monday",
+      "laborDay": "Labor Day",
+      "germanUnity": "German Unity Day",
+      "christmas": "Christmas Day",
+      "boxingDay": "Boxing Day"
+    },
+    "notice": {
+      "title": "Important Notice",
+      "description1": "Last entry 45 minutes before closing",
+      "description2": "Opening hours subject to change"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "We are here for you",
+    "getInTouch": "Get in Touch",
+    "form": {
+      "title": "Send Message",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send",
+      "sending": "Sending...",
+      "required": "Required Fields",
+      "selectSubject": "Select Subject",
+      "subjects": {
+        "booking": "Booking",
+        "membership": "Membership",
+        "facilities": "Facilities",
+        "other": "Other"
+      },
+      "success": {
+        "title": "Message Sent!",
+        "message": "Thank you for your message. We will get back to you shortly.",
+        "button": "New Message"
+      },
+      "errors": {
+        "name": "Please enter your name",
+        "email": "Please enter your email address",
+        "emailInvalid": "Please enter a valid email address",
+        "subject": "Please select a subject",
+        "message": "Please enter a message",
+        "messageTooShort": "Your message is too short"
+      }
+    },
+    "address": {
+      "title": "Address"
+    },
+    "phone": {
+      "title": "Phone"
+    },
+    "email": {
+      "title": "Email"
+    },
+    "hours": {
+      "title": "Opening Hours",
+      "weekdays": "Mon-Fri: 10:00 AM - 12:00 AM",
+      "weekend": "Sat-Sun: (SAT)10:00 AM - 5:00 PM (SUN) 10:00 AM - 9:00 PM"
+    },
+    "directions": {
+      "title": "Directions",
+      "description": "How to find us",
+      "public": "By public transport: U7 subway to Kurt-Schumacher-Platz",
+      "car": "By car: Free parking available"
+    },
+    "map": "Location Map"
+  },
+  "events": {
+    "title": "Events & Community",
+    "description": "Active together",
+    "joinCommunity": "Join Our Community",
+    "communityDescription": "At Airport Squash & Fitness, we believe in building a strong, inclusive community through sport. Our regular events are suitable for all ages and skill levels, offering opportunities to learn, connect, and play squash together.",
+    "eventsList": {
+      "social": {
+        "title": "Airport Evening Social",
+        "description": "Join our Sunday squash social event! Perfect for meeting other players, enjoying friendly matches, and building our community. All skill levels welcome.",
+        "schedule": "July 30, 2023"
+      },
+      "youth": {
+        "title": "Youth Training",
+        "description": "Special training sessions for young players aged 8-16. Professional coaching in a fun, supportive environment. Equipment provided for beginners.",
+        "schedule": "July 27, 2023"
+      },
+      "inclusive": {
+        "title": "LGBTQIA+ Inclusive Training",
+        "description": "A welcoming space for the LGBTQIA+ community to learn and play squash. Open to all skill levels, with a focus on inclusivity and fun.",
+        "schedule": "February 27, 2023"
+      },
+      "friday": {
+        "title": "Friday Squash Meeting",
+        "description": "",
+        "schedule": "July 27, 2020"
+      }
+    },
+    "getInvolved": {
+      "title": "Get Involved",
+      "description": "Would you like to participate in our community events or learn more about our programs? Contact us or visit us during one of our events - we look forward to welcoming you to our squash family!",
+      "contactButton": "Contact Us",
+      "bookButton": "Book a Court"
+    }
+  },
+  "shop": {
+    "title": "Online Shop",
+    "description": "Discover our range of squash equipment and accessories",
+    "filters": {
+      "title": "Filters",
+      "brands": "Brands",
+      "categories": "Categories",
+      "priceRange": "Price Range",
+      "showFilters": "Show Filters",
+      "search": "Search products..."
+    },
+    "categories": {
+      "rackets": "Rackets",
+      "shoes": "Shoes",
+      "clothing": "Clothing",
+      "accessories": "Accessories",
+      "balls": "Balls"
+    },
+    "labels": {
+      "new": "New",
+      "bestSeller": "Bestseller",
+      "sale": "Sale",
+      "addToCart": "Add to Cart",
+      "outOfStock": "Out of Stock",
+      "from": "From"
+    },
+    "cart": {
+      "title": "Shopping Cart",
+      "items": "Items",
+      "empty": "Your cart is empty",
+      "checkout": "Checkout"
+    }
+  },
+  "fitness": {
+    "title": "Fitness Center",
+    "description": "Transform body and mind in our state-of-the-art fitness facility",
+    "welcome": {
+      "title": "Welcome to Airport Fitness",
+      "description": "Our fitness center offers a variety of activities and equipment to help you achieve your fitness goals. Whether you're just starting your fitness journey or want to take your training to the next level, our experienced trainers and modern equipment will support you."
+    },
+    "activities": {
+      "general": {
+        "title": "General Training",
+        "description": "Our fully equipped gym offers modern cardio machines, free weights, and strength training areas. Perfect for beginners and experienced athletes.",
+        "schedule": "Monday - Sunday: 10:00 AM - 10:00 PM"
+      },
+      "kickboxing": {
+        "title": "Kickboxing",
+        "description": "Intense kickboxing classes combining combat techniques with cardio. Improve your strength, agility, and self-confidence."
+      },
+      "circuit": {
+        "title": "Circuit Training",
+        "description": "Dynamic group workouts targeting all major muscle groups. Our circuit training sessions are designed to boost endurance and burn calories.",
+        "schedule": "Monday, Wednesday, Friday: 5:30 PM - 6:30 PM"
+      }
+    },
+    "trial": {
+      "title": "Try a Free Session",
+      "description": "Experience our fitness center firsthand with a free trial session. Our trainers will help you discover the perfect activities for your fitness goals.",
+      "button": "Book Trial Session"
+    }
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "Your data in safe hands",
+      "intro": "The protection of your personal data is very important to us",
+      "sections": {
+        "declaration": {
+          "title": "Privacy Policy",
+          "content": "This privacy policy informs you about the nature, scope, and purpose of the processing of personal data within our online offering."
+        },
+        "responsible": {
+          "title": "Responsible Party",
+          "content": "Airport Squash & Fitness\nRue Charles Calmette 11D\n13405 Berlin\nGermany"
+        },
+        "collection": {
+          "title": "Data Collection",
+          "content": "We collect and process personal data only within the framework of applicable data protection laws. This includes name, contact details, and booking information."
+        },
+        "rights": {
+          "title": "Your Rights",
+          "content": "You have the right to information, rectification, erasure, and restriction of the processing of your personal data."
+        }
+      }
+    },
+    "terms": {
+      "title": "Terms and Conditions",
+      "description": "Our Business Terms and Conditions",
+      "intro": "Please read these terms and conditions carefully",
+      "sections": {
+        "general": {
+          "title": "General Terms and Conditions",
+          "content": "These terms and conditions govern the contractual relationship between Airport Squash & Fitness and our customers."
+        },
+        "membership": {
+          "title": "Membership",
+          "content": "Membership is personal and non-transferable. The minimum term is 1 month."
+        },
+        "bookings": {
+          "title": "Bookings & Cancellations",
+          "content": "Bookings can be canceled free of charge up to 24 hours before the game starts. A 50% fee will be charged for later cancellations."
+        },
+        "rules": {
+          "title": "House Rules",
+          "content": "All members are required to comply with the house rules. These are posted on the premises."
+        }
+      }
+    },
+    "imprint": {
+      "title": "Imprint",
+      "description": "Legal Information",
+      "intro": "Information according to § 5 TMG",
+      "sections": {
+        "operator": {
+          "title": "Operator",
+          "content": "Airport Squash & Fitness\nRue Charles Calmette 11D\n13405 Berlin\nGermany"
+        },
+        "contact": {
+          "title": "Contact",
+          "content": "Phone: +49 (030) 32 51 26 36\nEmail: info@airport-squash.de"
+        },
+        "register": {
+          "title": "Register Entry",
+          "content": "Registered in the commercial register.\nRegistry Court: Amtsgericht Berlin\nRegister Number: HRB 123456"
+        },
+        "authority": {
+          "title": "Supervisory Authority",
+          "content": "Competent Supervisory Authority:\nBezirksamt Reinickendorf von Berlin"
+        }
+      }
+    }
+  },
+  "league": {
+    "viewLeaguePage": "Visit Official League Page",
+    "table": {
+      "position": "Pos",
+      "team": "Team",
+      "played": "Pl",
+      "won": "W",
+      "lost": "L",
+      "setsFor": "Sets+",
+      "setsAgainst": "Sets-",
+      "points": "Points"
+    }
+  }
+}
