@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-background text-white font-body;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold;
+  }
+  
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl;
+  }
+  
+  h2 {
+    @apply text-3xl sm:text-4xl md:text-5xl;
+  }
+  
+  h3 {
+    @apply text-2xl sm:text-3xl;
+  }
+  
+  h4 {
+    @apply text-xl sm:text-2xl;
+  }
+  
+  p {
+    @apply text-gray-300 leading-relaxed;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+  
+  .container-padding {
+    @apply px-4 sm:px-6 lg:px-8;
+  }
+  
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 font-display font-bold rounded-md transition-all duration-300 text-white;
+  }
+  
+  .btn-primary {
+    @apply btn bg-primary hover:bg-primary-dark;
+  }
+  
+  .btn-secondary {
+    @apply btn bg-secondary hover:bg-secondary-dark;
+  }
+  
+  .btn-outline {
+    @apply btn border-2 border-white hover:bg-white hover:text-background;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold mb-4 md:mb-6 font-display relative inline-block;
+  }
+  
+  .section-title::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-16 h-1 bg-primary rounded-full -mb-2;
+  }
+  
+  .card {
+    @apply bg-background-alt rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:transform hover:scale-[1.02];
+  }
+
+  .img-overlay {
+    @apply absolute inset-0 bg-gradient-to-t from-background to-transparent opacity-80;
+  }
+}
+
+.texture-bg {
+  background-image: url('https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.texture-bg::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(18, 18, 18, 0.85);
+}
+
+.texture-bg > * {
+  position: relative;
+  z-index: 1;
+}
