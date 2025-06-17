@@ -1,0 +1,23 @@
+:root {
+  --color-primary: #000000; /* Negro */
+  --color-secondary: #ff0000; /* Rojo */
+  --color-accent: #000000; /* Negro */
+  --color-background: #ffffff; /* Blanco */
+  --color-text: #000000; /* Negro */
+  --color-light: #ffffff; /* Blanco */
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  --border-radius: 6px;
+  
+  /* Spacing system (8px) */
+  --space-1: 0.5rem; /* 8px */
+  --space-2: 1rem;   /* 16px */
+  --space-3: 1.5rem; /* 24px */
+  --space-4: 2rem;   /* 32px */
+  --space-5: 2.5rem; /* 40px */
+  --space-6: 3rem;   /* 48px */
+  
+  /* Typography */
+  --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --line-height-body: 1.6;
+  --line-height-heading: 1.2;
+}
