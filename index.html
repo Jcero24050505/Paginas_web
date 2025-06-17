@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Repository List</title>
+<style>
+  body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  .button-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+  }
+  .repo-button {
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  .repo-button:hover {
+    background-color: #0056b3;
+  }
+</style>
+</head>
+<body>
+
+<h1>Select a Repository</h1>
+
+<div class="button-container" id="repoButtons">
+  </div>
+
+<script>
+  fetch('repo_list.json')
+    .then(response => response.json())
+    .then(data => {
+      const firstFiveRepos = data.slice(0, 5); // Get the first five repositories
+      const buttonContainer = document.getElementById('repoButtons');
+      firstFiveRepos.forEach(repo => { // Iterate only over the first five
+        const button = document.createElement('button');
+        button.classList.add('repo-button');
+        button.textContent = repo.name;
+        button.onclick = () => {
+          window.location.href = repo.url;
+        };
+        buttonContainer.appendChild(button);
+      });
+    })
+    .catch(error => console.error('Error loading repository list:', error));
+</script>
+
+</body>
+</html>
